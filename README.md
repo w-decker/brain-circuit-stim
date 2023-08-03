@@ -56,7 +56,7 @@ Let's dive into this more.
 
 ### Breaking down the equations.
 
-$v$ is the membran potential in millivolts. $t$ is time in milliseconds. $\frac{du}{dt}$ is the time rate of change in membrane potential. $u$ is the recovery variable. $I$ is the external current from the input cell. The "non-linearity" essential resets the neuron after eat has reached it's peak amplitude. The values $a, b, c$ and $d$ determine the spike and burst patterns. The constants are $c_1 = 0.04 \frac{mV}{ms}, c_2 = 0.05 \frac{1}{ms}, c_3 = 140 \frac{mV}{ms}, c_4 = 1 \frac{1}{ms}, c_5 = 1 \frac{mV \cdot \Omega}{ms \cdot A \cdot ms}$.
+$v$ is the membran potential in millivolts. $t$ is time in milliseconds. $\frac{du}{dt}$ is the time rate of change in membrane potential. $u$ is the recovery variable, which is the product of $v$ and $b$. $I$ is the external current from the input cell. The "non-linearity" essential resets the neuron after eat has reached it's peak amplitude. The values $a, b, c$ and $d$ determine the spike and burst patterns. The constants are $c_1 = 0.04 \frac{mV}{ms}, c_2 = 0.05 \frac{1}{ms}, c_3 = 140 \frac{mV}{ms}, c_4 = 1 \frac{1}{ms}, c_5 = 1 \frac{mV \cdot \Omega}{ms \cdot A \cdot ms}$.
 
 ## Where to now?
 
