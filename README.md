@@ -81,3 +81,7 @@ Let's check this out using Python and MATLAB! The Python code will be in the for
 > [Simulating a brain circuit in Python!](/main.ipynb)
 
 > [Simulating a brain circuit in MATLAB!]()
+
+## Acknowledgements
+
+This repo was created using resources from [Michael X. Cohen](https://www.udemy.com/course/python-scientific-x/), [Colombia University](http://www.columbia.edu/cu/appliedneuroshp/Spring2018/Spring18SHPAppliedNeuroLec5.pdf), [Eugene Izhikevich](https://www.izhikevich.org/publications/spikes.htm) and my own knowledge of neurophysioloigcal mechansims.
