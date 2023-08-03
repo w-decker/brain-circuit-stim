@@ -62,6 +62,6 @@ $v$ is the membran potential in millivolts. $t$ is time in milliseconds. $\frac{
 
 Let's check this out using Python and MATLAB! The Python code will be in the form of a Jupyter Notebook (.ipynb) and the MATLAB code will be in the standard MATLAB file (.m).
 
-> [Simulating a brain circuit in Python!]()
+> [Simulating a brain circuit in Python!](/main.ipynb)
 
 > [Simulating a brain circuit in MATLAB!]()
