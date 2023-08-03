@@ -19,6 +19,7 @@ u = b*v;
 
 % create sample rate
 time = 1000;
+timevec = 1:1000;
 
 % create empty membrane voltage vector
 membrane_voltage = zeros(time);
@@ -51,7 +52,7 @@ end
 figure(1), hold on
 plot(membrane_voltage, 'color', 'k', 'LineWidth', 1)
 legend(label='Membrane potential')
-plot((I_all - 100),'color', 'm' )
+plot(I_all,'color', 'm' )
 legend(label='Stimulation')
 title("Simulation of 1 neuron")
 xlabel('Time (ms)')
